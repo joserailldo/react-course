@@ -1,0 +1,24 @@
+.banner {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(26, 23, 29, 0.257);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+
+ .banner h2 {
+    font-size: 30px;
+    color: rgb(240, 44, 77);
+ }
+
+ .banner p {
+    font-size: 15px;
+    color: rgb(11, 8, 9);
+ }
+
+ .banner img {
+    width: 150px;
+    height: 150px;
+ }
