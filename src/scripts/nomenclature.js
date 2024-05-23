@@ -1,8 +1,8 @@
-// nomenclatura de variavel
+// nomenclatura de variavél
 
-const userName = "Jose Raildo"
+const userName = "Lucas Correa"
 
-const user_name = "Jose Raildo"
+const user_name = "Lucas Correa"
 
 // nomenclatura de funções
 
@@ -15,3 +15,4 @@ const primeiroNumero = 10
 const segundoNumero = 20
 
 console.log(SomaNumeros(primeiroNumero, segundoNumero))
+console.log(10 + 40)
