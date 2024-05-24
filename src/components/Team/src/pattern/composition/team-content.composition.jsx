@@ -1,23 +1,34 @@
 import '../../../styles.css'
+import {Dribble, EmptyImage, Linkedin, X} from "../../assets/images"
 
 
-
-export default function Content() {
+export default function Content(props) {
     return (
         <div className='content-container'>
-            
+            <img src={props.image ? props.image: EmptyImage} alt="" className= "content-title" />
             <div className="content-title">
-                <h1>Question text goes here</h1>
+                <h1>{props.name}</h1>
+                <h1>{props.role}</h1>
                
             </div>
             <p className='content-description'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+            {props.description}
             </p>
 
-            
-            
+                      
             <div className="content-icons">
-                   
+            <a href={props.Dribble}>
+                <img src={Dribble}alt="_blank" />
+            </a>
+            
+            <a href={props.Linkedin}>
+                <img src={Linkedin}alt="_blank" />
+            </a>
+            
+            <a href={props.X}>
+                <img src={X}alt="_blank" />
+            </a>
+
             </div>
         </div>
     )
