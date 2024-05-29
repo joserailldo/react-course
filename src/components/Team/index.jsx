@@ -3,14 +3,14 @@ import { Team } from "./src/pattern/composition"
 
 const TeamUsers = [
     {
-        image: "https://dribbble.com/"
-        name: "Jose Raildo"
-        role: "Estudante"
-        description: "Administrador" ,
+        image: "https://dribbble.com/",
+        name: "JoseRaildo",
+        role: "Estudante",
+        description: "Administrador",
             SocialMedias: {
-                linkedin="https://br.linkedin.com//"
-                x="https://x.com/?lang=pt-br&mx=2/"
-                dribble="https://dribbble.com/"
+                linkedin: "https://br.linkedin.com//",
+                x:"https://x.com/?lang=pt-br&mx=2/",
+                dribble: "https://dribbble.com/",
             }
     },
 
